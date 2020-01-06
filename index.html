@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<!--start html element -->
+<html lang="en">
+
+	<!--start head element -->
+	<head>
+			<meta charset="UTF-8">
+			<!-- sets the viewport -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+			<title>Dashboard</title>
+				
+				<!-- Favorite Icon -->
+				<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+				<!-- Google Fonts -->
+				<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+				<!-- Font Awesome - for Icons -->
+				<script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" data-auto-replace-svg="nest"></script>
+				<!-- animate css -->
+				<link rel="stylesheet" href="css/animate.css">
+				<!-- Custom CSS -->
+				<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+				<link rel="stylesheet" href="css/main.css">
+		</head>
+	
+
+	<body>
+
+	<main>
+		<div class="user">
+			<img id="userImg" src="" alt="">
+			<h1 id="username"></h1>
+			<h4 id ="userId"></h4>
+		</div>
+
+		<div class="stats">
+			<div id="time"></div>
+			<h2>My Progress for Spring Semester:</h2>
+				<div id="progress">
+				<h2 id="progress-percent"></h2>
+				<div id="progress-inner"></div>
+			</div>
+		</div>
+
+		<div class="active">
+			<h2 id="active-title"></h2>
+			<ul id="active-list"></ul>
+		</div>
+
+		<div class="footer">
+			<ul>
+				<button><li><a href="#" onclick="showCourses()">Courses</a></li></button>
+				<button><li><a href="#" onclick="showActivity()">Activity</a></li></button>
+				<button><li><a href="#" onclick="showAccount()">Account</a></li></button>
+			</ul>
+		</div>
+	</main>
+
+	 <nav>
+        <ul>
+            <li><i class="fas fa-bars" onclick="expandMenu()"></i></li>
+            <li><i class="fas fa-home"></i><span>Home</span></li>
+            <li><i class="fas fa-sign-out-alt"></i><span>Log Out</span></li>
+        </ul>
+    </nav>
+	
+
+
+
+	<script src="http://code.jquery.com/jquery-3.4.1.js"
+  	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  	crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="js/main.js"></script> 
+	</body>
+</html>
